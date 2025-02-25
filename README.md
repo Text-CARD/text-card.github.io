@@ -1,4 +1,4 @@
-## Hi there 👋
+## T-CARD
 
 <!--
 **Text-CARD/text-card** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
