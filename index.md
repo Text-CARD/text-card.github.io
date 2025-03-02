@@ -45,7 +45,9 @@ scene text into condensed sentences for fine-grained interaction.*
     </figure>
 </div>
 
-*Figure 3: Visualization of the proposed Window-OCR Captioner. We aggregrate different kinds of scene texts appearing within a window length of ∆t into a single caption to reduce the feature length from N in previous works (e.g., StarVR) to 1.*
+*Figure 3: Visualization of the proposed Window-OCR Captioner. We aggregrate different kinds of scene texts appearing within a window length of ∆t into a single caption to reduce the feature length from N in previous works (e.g., StarVR[1]) to 1.*
+
+[1] Weijia Wu, Yuzhong Zhao, Zhuang Li, Jiahong Li, Hong Zhou, Mike Zheng Shou, and Xiang Bai. A large cross-modal video retrieval dataset with reading comprehension. Pattern Recognition, 157:110818, 2025.
 
 <!-- <div style="display: flex; justify-content: space-between;">
     <figure>
