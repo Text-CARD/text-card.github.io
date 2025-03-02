@@ -15,16 +15,16 @@ Existing text-video retrieval (TVR) methods mainly focus on aligning single-moda
     </figure>
 </div>
 
-*Figure 1: (a) Existing methods overlook the fine-grained scene text
-in videos. (b) T-CARD achieves better performance with lower
-complexity. (c) SOTA method [52] handles scene text as an instance, resulting in token imbalance issue that hinders fine-grained
-interaction. (d) Our window-OCR captioner aggregates abundant
-scene text into condensed sentences for fine-grained interaction.*
+<p align="justify">
+<b>Figure 1:</b> (a) Existing methods overlook the fine-grained scene text in videos. (b) T-CARD achieves better performance with lower complexity. (c) SOTA method[1] handles scene text as an instance, resulting in token imbalance issue that hinders fine-grained interaction. (d) Our window-OCR captioner aggregates abundant scene text into condensed sentences for fine-grained interaction.
+</p>
 
 ## [3/6] MODEL ARCHITECTURE
 ![T-CARD Model Architecture](images/T-CARD.png)
 
-*Figure 2: Pipeline of the proposed **T-CARD**. Window-OCR captioner is leveraged to aggregate abundant scene text into condensed OCR captions. Heterogeneous semantics calibrating uses scene text in both video frames and OCR captions as a signal for self-supervised learning. Context temporal clue distilling assigns each modal query with a learnable clue to obtain a clear context temporal clue.*
+<p align="justify">
+<b>Figure 2:</b> Pipeline of the proposed <b>T-CARD</b>. Window-OCR captioner is leveraged to aggregate abundant scene text into condensed OCR captions. Heterogeneous semantics calibrating uses scene text in both video frames and OCR captions as a signal for self-supervised learning. Context temporal clue distilling assigns each modal query with a learnable clue to obtain a clear context temporal clue.
+</p>
 
 
 
@@ -45,9 +45,14 @@ scene text into condensed sentences for fine-grained interaction.*
     </figure>
 </div>
 
-*Figure 3: Visualization of the proposed Window-OCR Captioner. We aggregrate different kinds of scene texts appearing within a window length of ∆t into a single caption to reduce the feature length from N in previous works (e.g., StarVR[1]) to 1.*
+<p align="justify">
+<b>Figure 3:</b>: Visualization of the proposed Window-OCR Captioner. We aggregrate different kinds of scene texts appearing within a window length of ∆t into a single caption to reduce the feature length from N in previous works (e.g., StarVR[1]) to 1.
+</p>
 
-[1] Weijia Wu, Yuzhong Zhao, Zhuang Li, Jiahong Li, Hong Zhou, Mike Zheng Shou, and Xiang Bai. A large cross-modal video retrieval dataset with reading comprehension. Pattern Recognition, 157:110818, 2025.
+[1] Weijia Wu, Yuzhong Zhao, Zhuang Li, Jiahong Li, Hong
+Zhou, Mike Zheng Shou, and Xiang Bai. A large cross-
+modal video retrieval dataset with reading comprehension.
+Pattern Recognition, 157:110818, 2025.
 
 <!-- <div style="display: flex; justify-content: space-between;">
     <figure>
@@ -61,9 +66,16 @@ scene text into condensed sentences for fine-grained interaction.*
 
 ## [5/6] Text→Video Retrieval Results (1/2)
 ![Text→Video Retrieval (1/2)](images/t2v_2.png)
-*Figure 4: Visualization of retrieval results comparing our method (left) with the model without OCR information (right). Sim indicates the overall similarity
-score, calculated as the average of text-OCR, text-video, and text-hybrid matching scores, denoted as OCR, Video, and Hybrid, respectively. Our T-CARD captures fine-grained scene text, such as "GRILL" and "Thank you" with high similarity and hybrid scores. Please zoom in for a better view of the details.*
+<p align="justify">
+<b>Figure 4</b>: Visualization of retrieval results comparing our method (left) with the model without OCR information (right). Sim indicates the overall similarity
+score, calculated as the average of text-OCR, text-video, and text-hybrid matching scores, denoted as OCR, Video, and Hybrid, respectively. Our T-CARD captures fine-grained scene text, such as "GRILL" and "Thank you" with high similarity and hybrid scores. Please zoom in for a better view of the details.
+</p>
+
 ## [6/6] Text→Video Retrieval Results (2/2)
 ![Text→Video Retrieval (2/2)](images/t2v_1.png)
-*Figure 5: Visualization of retrieval results comparing our method (left) with the model without OCR information (right). Sim represents the overall similarity
-score, calculated as the average of text-OCR, text-video, and text-hybrid matching scores, denoted as OCR, Video, and Hybrid, respectively. Our T-CARD captures fine-grained scene text, such as "SAC MIA", "School", and "SDY 288H" with high similarity and hybrid scores. Please zoom in for a better view of the details.*
+<p align="justify">
+<b>Figure 5</b>: Visualization of retrieval results comparing our method (left) with the model without OCR information (right). Sim represents the overall similarity
+score, calculated as the average of text-OCR, text-video, and text-hybrid matching scores, denoted as OCR, Video, and Hybrid, respectively. Our T-CARD captures fine-grained scene text, such as "SAC MIA", "School", and "SDY 288H" with high similarity and hybrid scores. Please zoom in for a better view of the details.
+</p>
+
+
