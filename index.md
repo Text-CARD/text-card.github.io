@@ -1,6 +1,3 @@
-# Temporal Scene-Text Calibrating and Distilling for Text-Video Retrieval
-
-
 ## [1/6] Task Introduction 
 
 <div style="display: flex; justify-content: space-between;">
